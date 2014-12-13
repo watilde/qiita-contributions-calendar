@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Display contributions calendar in Qiita",
+  "version": "1.0",
+  "content_scripts": [{
+    "matches": ["http://qiita.com/*"],
+    "js": ["jquery-2.1.1.min.js", "d3.min.js", "minor-tweaks.js", "qiita-contributions-calendar.js"],
+    "css": ["style.css"]
+  }]
+}
